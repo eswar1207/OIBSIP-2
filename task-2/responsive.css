@@ -1,0 +1,68 @@
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .navbar .menu {
+        display: none;
+    }
+    
+    .navbar .hamburger {
+        display: block;
+        cursor: pointer;
+    }
+
+    .navbar .hamburger .hamburger-icon {
+        display: block;
+    }
+
+    .navbar .hamburger .cross-icon {
+        display: none;
+    }
+
+    .navbar .menu.active {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 60px;
+        right: 0;
+        background: #333;
+        width: 100%;
+    }
+
+    .navbar .menu-list {
+        flex-direction: column;
+    }
+
+    .navbar .menu-list-items {
+        margin: 10px 0;
+        text-align: center;
+    }
+
+    .hero {
+        padding: 20px;
+        height: auto;
+    }
+
+    .portfolio-content .my-row {
+        flex-direction: column;
+    }
+
+    .portfolio-content .my-col {
+        margin: 20px 0;
+    }
+}
+
+/* Smaller devices */
+@media (max-width: 480px) {
+    .intro {
+        padding: 0 10px;
+    }
+
+    .btn {
+        font-size: 14px;
+        padding: 8px 16px;
+    }
+
+    .about-para,
+    .skills-list li {
+        font-size: 16px;
+    }
+}

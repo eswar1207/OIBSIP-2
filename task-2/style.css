@@ -1,0 +1,160 @@
+/* General Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Header Styles */
+.header {
+    background: #333;
+    color: white;
+    padding: 10px 20px;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-heading {
+    margin: 0;
+    font-size: 24px;
+}
+
+.menu-list {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu-list-items {
+    margin-left: 20px;
+}
+
+.links {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.hamburger {
+    display: none;
+}
+
+/* Hero Section Styles */
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: #f0f0f0;
+    text-align: center;
+}
+
+.intro {
+    max-width: 600px;
+}
+
+.intro-buttons {
+    margin-top: 20px;
+}
+
+.btn {
+    padding: 10px 20px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.common-btn {
+    background: #333;
+    color: white;
+}
+
+.ghost-btn {
+    background: transparent;
+    border: 2px solid #333;
+    color: #333;
+}
+
+/* Portfolio Section Styles */
+.portfolio {
+    padding: 50px 20px;
+    background: #fff;
+}
+
+.portfolio-heading {
+    margin-bottom: 30px;
+}
+
+.my-row {
+    display: flex;
+    justify-content: space-around;
+}
+
+.my-col {
+    flex: 1;
+    margin: 10px;
+}
+
+.my-card {
+    background: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.image img {
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+/* About Section Styles */
+.about {
+    padding: 50px 20px;
+    background: #f0f0f0;
+}
+
+.about-heading {
+    margin-bottom: 30px;
+}
+
+.about-para {
+    font-size: 18px;
+}
+
+.skills-heading {
+    margin-top: 20px;
+    font-size: 24px;
+}
+
+.skills-list {
+    list-style: none;
+    padding: 0;
+}
+
+.skills-list li {
+    font-size: 18px;
+    margin: 10px 0;
+}
+.profile-picture {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    background: #333;
+}
+
+.profile-picture img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+}
